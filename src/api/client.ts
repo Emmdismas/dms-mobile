@@ -4,14 +4,14 @@ import { Platform } from 'react-native';
 const TOKEN_KEY = '@dms_token';
 const API_URL_KEY = '@dms_api_base_url';
 
-// Default development API host (Laravel port is 8001 as specified in README.md)
+// Default development API host (Laravel port is 8005)
 const getDefaultBaseUrl = (): string => {
   if (Platform.OS === 'android') {
     // Android emulator alias for host machine
-    return 'http://10.0.2.2:8001/api/v1';
+    return 'http://10.0.2.2:8005/api/v1';
   }
   // iOS simulator, Web, or default localhost
-  return 'http://127.0.0.1:8001/api/v1';
+  return 'http://127.0.0.1:8005/api/v1';
 };
 
 let cachedBaseUrl: string | null = null;

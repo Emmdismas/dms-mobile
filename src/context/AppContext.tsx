@@ -69,7 +69,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const { currentUser, selectedBranchId } = useAuth();
 
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
-  const [language, setLanguage] = useState<Language>('sw');
+  const [language, setLanguage] = useState<Language>('en');
 
   const [dealers, setDealers] = useState<Dealer[]>([]);
   const [branches, setBranches] = useState<Branch[]>([]);

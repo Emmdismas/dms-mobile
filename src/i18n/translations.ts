@@ -3,16 +3,16 @@ export type Language = 'sw' | 'en';
 export const translations = {
   sw: {
     appName: 'DMS Mobile',
-    tagline: 'Mfumo wa Usimamizi wa Mauzo na Stoo',
+    tagline: 'Mfumo wa Usimamizi wa Pikipiki na Bajaji (2W & 3W)',
     
     // Auth
-    login: 'Ingia',
+    login: 'Ingia Kwenye Mfumo',
     logout: 'Toka',
-    emailOrPhone: 'Barua Pepe / Namba ya Simu',
+    emailOrPhone: 'Barua Pepe / Namba ya Simu / Dealer Code',
     password: 'Nenosiri',
     loggingIn: 'Inaingia...',
     loginError: 'Barua pepe au nenosiri si sahihi',
-    welcomeBack: 'Karibu tena',
+    welcomeBack: 'Karibu Kwenye Portal',
     selectBranch: 'Chagua Tawi',
     allBranches: 'Matawi Yote',
 
@@ -24,38 +24,38 @@ export const translations = {
     tabSettings: 'Mipangilio',
 
     // Dashboard
-    inStockUnits: 'Pikipiki Zilizopo',
+    inStockUnits: 'Pikipiki & Bajaji Zilizopo',
     mtdSalesCount: 'Mauzo ya Mwezi',
     mtdRevenue: 'Mapato ya Mwezi',
     activeBranches: 'Matawi Yaliyopo',
     quickActions: 'Matendo ya Haraka',
-    receiveStock: 'Pokea Mzigo',
+    receiveStock: 'Pokea Mzigo (2W & 3W)',
     recordSale: 'Fanya Mauzo',
-    transferStock: 'Hamisha Mzigo',
+    transferStock: 'Hamisha Chombo',
     recentActivity: 'Shughuli za Hivi Karibuni',
     noActivityYet: 'Hakuna shughuli zilizorekodiwa bado',
 
     // Inventory
     searchChassisOrModel: 'Tafuta Chassis, Engine au Modeli...',
-    filterByStatus: 'Hali ya Pikipiki',
+    filterByStatus: 'Hali ya Chombo',
     allStatuses: 'Hali Zote',
-    chassis: 'Chassis',
-    engine: 'Engine',
+    chassis: 'Chassis / VIN',
+    engine: 'Engine No.',
     model: 'Modeli',
-    type: 'Aina',
+    type: 'Aina (2W / 3W)',
     branch: 'Tawi',
     status: 'Hali',
-    price: 'Bei',
+    price: 'Bei (TZS)',
     receivedDate: 'Tarehe ya Kupokea',
     ageDays: 'Siku Stoo',
-    unitDetail: 'Taarifa za Pikipiki',
-    releaseUnit: 'Kukabidhi Pikipiki kwa Mteja',
+    unitDetail: 'Taarifa za Chombo',
+    releaseUnit: 'Kukabidhi Chombo kwa Mteja',
     confirmRelease: 'Thibitisha Kukabidhi',
 
     // Receive Stock Form
-    receiveNewStockTitle: 'Pokea Mzigo Mpya wa Pikipiki',
+    receiveNewStockTitle: 'Pokea Mzigo Mpya (2W & 3W)',
     scanChassis: 'Scan Chassis Barcode',
-    chassisNumber: 'Namba ya Chassis',
+    chassisNumber: 'Namba ya Chassis / VIN',
     engineNumber: 'Namba ya Engine',
     modelName: 'Jina la Modeli',
     color: 'Rangi',
@@ -68,7 +68,7 @@ export const translations = {
 
     // Sales Form
     newSaleTitle: 'Rekodi Mauzo Mapya',
-    selectUnit: 'Chagua Pikipiki Inayouzwa',
+    selectUnit: 'Chagua Chombo (Pikipiki / Bajaji)',
     customerName: 'Jina Kamili la Mteja',
     customerPhone: 'Namba ya Simu ya Mteja',
     nidaNumber: 'Namba ya NIDA (hiari)',
@@ -87,7 +87,7 @@ export const translations = {
     saleSuccess: 'Mauzo yamerekodiwa kikamilifu!',
 
     // Transfers
-    newTransferTitle: 'Hamisha Pikipiki Kati ya Matawi',
+    newTransferTitle: 'Hamisha Chombo Kati ya Matawi',
     fromBranch: 'Kutoka Tawi',
     toBranch: 'Kwenda Tawi',
     chassisToTransfer: 'Chassis Inayohamishwa',
@@ -113,16 +113,16 @@ export const translations = {
   },
   en: {
     appName: 'DMS Mobile',
-    tagline: 'Dealer Management & Inventory System',
+    tagline: 'Enterprise ERP for 2W & 3W Dealerships',
 
     // Auth
-    login: 'Sign In',
+    login: 'Sign In to Portal',
     logout: 'Sign Out',
-    emailOrPhone: 'Email or Phone Number',
+    emailOrPhone: 'Email / Phone / Dealer Code',
     password: 'Password',
     loggingIn: 'Signing In...',
     loginError: 'Invalid credentials. Please try again.',
-    welcomeBack: 'Welcome Back',
+    welcomeBack: 'Enterprise Portal',
     selectBranch: 'Select Branch',
     allBranches: 'All Branches',
 
@@ -134,14 +134,14 @@ export const translations = {
     tabSettings: 'Settings',
 
     // Dashboard
-    inStockUnits: 'Units In Stock',
+    inStockUnits: 'Units In Stock (2W & 3W)',
     mtdSalesCount: 'MTD Units Sold',
     mtdRevenue: 'MTD Revenue',
     activeBranches: 'Active Branches',
     quickActions: 'Quick Actions',
-    receiveStock: 'Receive Stock',
+    receiveStock: 'Receive Stock (2W & 3W)',
     recordSale: 'Record Sale',
-    transferStock: 'Transfer Stock',
+    transferStock: 'Transfer Vehicle',
     recentActivity: 'Recent Activity',
     noActivityYet: 'No activity recorded yet',
 
@@ -149,13 +149,13 @@ export const translations = {
     searchChassisOrModel: 'Search Chassis, Engine, or Model...',
     filterByStatus: 'Filter Status',
     allStatuses: 'All Statuses',
-    chassis: 'Chassis',
-    engine: 'Engine',
+    chassis: 'Chassis / VIN',
+    engine: 'Engine No.',
     model: 'Model',
-    type: 'Type',
+    type: 'Type (2W / 3W)',
     branch: 'Branch',
     status: 'Status',
-    price: 'Price',
+    price: 'Price (TZS)',
     receivedDate: 'Received Date',
     ageDays: 'Stock Age',
     unitDetail: 'Vehicle Unit Details',
@@ -163,9 +163,9 @@ export const translations = {
     confirmRelease: 'Confirm Release',
 
     // Receive Stock Form
-    receiveNewStockTitle: 'Receive New Stock',
+    receiveNewStockTitle: 'Receive New Stock (2W & 3W)',
     scanChassis: 'Scan Chassis Barcode',
-    chassisNumber: 'Chassis Number',
+    chassisNumber: 'Chassis Number / VIN',
     engineNumber: 'Engine Number',
     modelName: 'Model Name',
     color: 'Color',
@@ -178,7 +178,7 @@ export const translations = {
 
     // Sales Form
     newSaleTitle: 'Record New Sale',
-    selectUnit: 'Select In-Stock Vehicle',
+    selectUnit: 'Select In-Stock Vehicle (2W / 3W)',
     customerName: 'Customer Full Name',
     customerPhone: 'Customer Phone',
     nidaNumber: 'NIDA Number (Optional)',
